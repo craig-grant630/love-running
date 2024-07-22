@@ -38,6 +38,21 @@ h1{
     letter-spacing: 2px;
     color:#252525;
 }
+
+#menu{
+    letter-spacing: 4px;
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#menu > li{
+    margin-bottom: 1rem;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
 main{
     background-color: lightblue;
     flex: 1 0 auto;
