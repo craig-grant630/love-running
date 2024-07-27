@@ -183,6 +183,7 @@ main {
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
+    
 }
 
 #times h3 {
