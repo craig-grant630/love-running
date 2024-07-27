@@ -82,10 +82,18 @@ nav{
 }
 
 main{
-    background-color: lightblue;
+    /*Make main content take up surplus space and push foooter down*/
     flex: 1 0 auto;
     margin-top: 47px;
 
+}
+
+/*Hero Styles*/
+
+#hero{
+    height:600px;
+    width:100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 #social-networks{
